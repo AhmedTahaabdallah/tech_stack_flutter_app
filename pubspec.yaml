@@ -1,0 +1,43 @@
+name: tech_stack
+description: Tech Stack application.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.0
+  dio: ^3.0.10
+  provider: ^4.3.2+2
+  get: ^3.15.0
+  flutter_spinkit: ^4.1.2+1
+  flutter_statusbarcolor: ^0.2.3
+  rflutter_alert: ^1.1.0
+  shimmer: ^1.1.2
+  animated_widgets: ^1.0.6
+  curved_navigation_bar: ^0.3.4
+  intl: ^0.16.1
+  auto_animated: ^2.1.0
+
+dependency_overrides:
+  connectivity: ^2.0.2
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  
